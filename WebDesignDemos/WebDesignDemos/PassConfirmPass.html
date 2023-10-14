@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>PassWord Checker</title>
+</head>
+<!-- Create two fields password & confirm Password in HTML, validate that user has entered same password 
+& confirm password using javascript. -->
+
+ <body>
+        <section id="password">
+            <div class="container">
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword1" placeholder="Confirm Password">
+                    <label for="floatingPassword"> Confirm Password</label>
+                </div>
+                <div class=" form-floting mb-3">
+                    <button type="submit" class=" btn btn-outline-primary " onclick="Validate()">Submit</button>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            function Validate() {
+                var pass1 = document.getElementById("floatingPassword").value;
+                var pass2 = document.getElementById("floatingPassword1").value;
+                if (pass1 == pass2) {
+                    alert('Success');
+                }
+                else {
+                    alert('Wrong Password');
+                }
+            }
+        </script>
+
+
+</body>
+</html>

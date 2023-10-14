@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Call Back Function </title>
+
+</head>
+<body>
+<!-- 
+    //Call Back Function
+    <div id="d1"></div>
+    <script>
+        //a=10
+        //b=20
+        //myfunction=display
+        function add(x, y, display) {
+            var c = x + y;
+
+
+            display(c);
+        }
+
+
+        function display(result) {
+            document.getElementById("d1").innerHTML = result;
+        }
+
+
+        add(10, 40, display); //call back function
+                // add function get exe first
+                // then display function get executed
+                // display function will wait till the add function completes its exe
+    </script> -->
+
+
+
+ <!--    Time Out -->
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <script>
+        // // SetTimeOut() & setInterval()
+
+        // function display() {
+        //     document.getElementById("d1").innerHTML = "Welcome to Javascript";
+        // }
+        // setTimeout(display, 3000); // 3 sec
+
+
+
+
+        function displayTime() {
+            var d = new Date();
+            document.getElementById("d2").innerHTML = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+
+        }
+
+        // displayTime();
+        setInterval(displayTime, 1000);
+
+    </script>
+
+</body>
+</html>

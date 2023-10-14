@@ -1,0 +1,134 @@
+#s1 {
+    position: relative;
+    top: 30px;
+    bottom: 20px;
+}
+
+    #s1 h3 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #4180BF;
+    }
+
+    img{
+        height:250px;
+        width:50px;
+    }
+.card{
+    margin-bottom:20px;
+}
+#s1{
+    position:relative;
+    top:30px;
+}
+
+
+/*footer design*/
+
+#footer {
+    background-color: black;
+    height: 260px;
+    position: relative;
+    top: 30px;
+}
+
+    #footer h5 {
+        position: relative;
+        top: 10px;
+        margin-left: 30px;
+        color: darkgray;
+    }
+
+    #footer ul li {
+        list-style: none;
+    }
+
+        #footer ul li a {
+            position: relative;
+            top: 10px;
+            color: white !important;
+            text-decoration: none;
+            text-align: left;
+        }
+
+    #footer p {
+        color: white;
+    }
+
+    #footer hr {
+        color: white;
+    }
+
+    #footer .fa {
+        color: white;
+    }
+
+
+
+  /*  Register.html Design*/
+
+#Register {
+   position : relative;
+   top:50px;
+    
+}
+
+#Register.custom {
+    box-shadow: 5px 2px 2px lightgray;
+    border: 1px solid lightgray;
+}
+
+#Login{
+    margin:50px 20px 50px 30px;
+}
+.custom {
+    box-shadow: 5px 2px 2px lightgray;
+    border: 1px solid lightgray;
+}
+
+
+#Contact{
+    position : relative;
+    top: 20px;
+}
+
+/*table colour*/
+th{
+    background-color:#4180BF !important;
+    color : white !important;
+    
+}
+
+
+#about {
+    background-color: #4180BF !important;
+    
+}
+
+
+
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+    /* Add CSS rules specific to mobile screens here */
+    body{
+        font-size:14px;
+        margin:10px;
+    }
+}
+
+/* Styles for tablet screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Add CSS rules specific to tablet screens here */
+    body{
+        font-size:18px;
+        margin : 30px;
+    }
+}
+
+/* Styles for laptop/desktop screens */
+@media (min-width: 1025px) {
+    /* Add CSS rules specific to laptop/desktop screens here */
+    body{
+        font-size:20px;
+        margin : 40px;
+    }
+}

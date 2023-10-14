@@ -1,0 +1,38 @@
+/*this css is for desktop*/
+h1 {
+	font-size: 60px;
+}
+
+img {
+	height: 400px;
+	width: 600px;
+}
+/*
+this css is for tab*/
+@media only screen and (min-device-width:768px) and (max-device-width:1000px) {
+	h1
+
+{
+	font-size: 30px;
+}
+
+img {
+	height: 200px;
+	width: 300px;
+}
+
+}
+
+/* this css is for mobile */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+	h1
+
+{
+	font-size: 16px;
+}
+
+img {
+	height: 50px;
+	width: 150px;
+}
+}

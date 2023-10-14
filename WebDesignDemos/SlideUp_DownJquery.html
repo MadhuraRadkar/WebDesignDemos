@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        ul li {
+            background-color: lightblue;
+            list-style: none;
+            width: 180px;
+            border: 2px solid;
+        }
+    </style>
+
+</head>
+<body>
+    <input type="button" value="Slide Up" id="btn1" /> <br /><br />
+    <input type="button" value="Slide Down" id="btn2" />
+    <br />
+    <br />
+    <div id="d1">
+        This is sample text in the div tag for slide up .
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+            integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+            crossorigin="anonymous"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                 $("#d1").slideUp("slow");
+            });
+
+            $("#btn2").click(function () {
+                $("#d1").slideDown("slow");
+            });
+
+        });
+    </script>
+</body>
+</html>
